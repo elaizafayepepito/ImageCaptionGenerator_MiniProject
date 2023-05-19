@@ -1,0 +1,17 @@
+.App {
+  text-align: center;
+  color: #daa074;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.title {
+  padding-top: 1rem;
+  font-weight: bold;
+  font-size: 2rem;
+  margin-bottom: 1em;
+  color: white;
+}

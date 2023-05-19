@@ -1,0 +1,49 @@
+.caption-section {
+    margin-left: 2rem;
+    background-color: white;
+    width: 900px;
+}
+
+.caption-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    cursor: pointer;
+    background-color: #f55e30;
+    border: none;
+    font-size: 1.1rem;
+    border-radius: 4px;
+    outline: none;
+    padding: 1em;
+    transition: background-color 0.4s;
+    box-shadow: 0px 8px 24px rgba(149, 157, 165, 0.5);
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .caption-btn:hover {
+    background-color: #f15120;
+  }
+
+.caption-container {
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    align-items: center;
+    justify-content: center;
+    width: 765px;
+    border: 2px solid black;
+    text-align: left;
+    margin-left: 1rem;
+    padding: 1rem;
+    min-height: 70px;
+  }
+
+  .copy-btn {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    outline: none;
+    padding: 1em;
+    transition: background-color 0.4s;
+  }
