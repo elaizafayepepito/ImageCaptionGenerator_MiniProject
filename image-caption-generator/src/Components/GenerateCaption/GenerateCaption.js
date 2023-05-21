@@ -6,6 +6,7 @@ import { CopyToClipboard } from 'react-copy-to-clipboard';
 const GenerateCaption = ({filename}) => {
   const [caption, setCaption] = useState('');
   const [showCaption, setShowCaption] = useState(false);
+  const [isLoading, setIsLoading] = useState(false);
 
   /*const generateCaption = () => {
     const randomCaption = filename;
@@ -15,6 +16,8 @@ const GenerateCaption = ({filename}) => {
 
   const generateCaption = async () => {
     try {
+      setIsLoading(true);
+
       const file = new File([filename], filename, { type: 'image/jpeg' });
 
       const formData = new FormData();
@@ -36,6 +39,8 @@ const GenerateCaption = ({filename}) => {
       }
     } catch (error) {
       console.error('Error:', error);
+    } finally {
+      setIsLoading(false);
     }
   };
 
@@ -47,15 +52,20 @@ const GenerateCaption = ({filename}) => {
     <div className='caption-section'>
       <Stack direction='row'>
         <div className='caption-container'>
-          {showCaption && <p>{caption}</p>}
+          {/*showCaption && <p>{caption}</p>*/}
+          {isLoading ? (
+            <div className="loading-spinner"></div> // Display the loading spinner
+          ) : (
+            showCaption && <p>{caption}</p>
+          )}
         </div>
         <CopyToClipboard text={caption} onCopy={handleCopy}>
           <button className='copy-btn'>Copy</button>
         </CopyToClipboard>
       </Stack>
       <div>
-        <button className="caption-btn" onClick={generateCaption}>
-          Generate Caption
+        <button className="caption-btn" onClick={generateCaption} disabled={isLoading}>
+          {isLoading ? 'Generating...' : 'Generate Caption'}
         </button>
       </div>
     </div>
