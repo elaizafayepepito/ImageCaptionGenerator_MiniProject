@@ -3,13 +3,14 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus } from '@fortawesome/free-solid-svg-icons';
 import './FileUpload.scss';
 
-const FileUpload = () => {
+const FileUpload = ({getFilename}) => {
   const [file, setFile] = useState(null);
 
   const uploadHandler = (event) => {
     const uploadedFile = event.target.files[0];
     if (!uploadedFile) return;
     setFile(uploadedFile);
+    getFilename(uploadedFile.name);
   };
 
   return (
