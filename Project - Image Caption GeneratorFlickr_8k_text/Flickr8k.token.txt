@@ -3,10 +3,10 @@
 1000268201_693b08cb0e.jpg#2	A little girl climbing into a wooden playhouse .
 1000268201_693b08cb0e.jpg#3	A little girl climbing the stairs to her playhouse .
 1000268201_693b08cb0e.jpg#4	A little girl in a pink dress going into a wooden cabin .
-1001773457_577c3a7d70.png#0	A black dog and a spotted dog are fighting
-1001773457_577c3a7d70.png#1	A black dog and a tri-colored dog playing with each other.
-1001773457_577c3a7d70.png#2	A black dog and a white dog with brown spots are staring at each other.
-1001773457_577c3a7d70.png#3	Two dogs of different breeds looking at each other on the road.
+1001773457_577c3a7d70.jpg#0	A black dog and a spotted dog are fighting
+1001773457_577c3a7d70.jpg#1	A black dog and a tri-colored dog playing with each other.
+1001773457_577c3a7d70.jpg#2	A black dog and a white dog with brown spots are staring at each other.
+1001773457_577c3a7d70.jpg#3	Two dogs of different breeds looking at each other on the road.
 1001773457_577c3a7d70.png#4	Two dogs moving toward each other .
 1002674143_1b742ab4b8.jpg#0	A little girl covered in paint.
 1002674143_1b742ab4b8.jpg#1	A little girl is sitting in front of a large painted rainbow.
@@ -19373,11 +19373,11 @@
 3061481868_d1e00b1f2e.jpg#2	Two people on a motorcycle .
 3061481868_d1e00b1f2e.jpg#3	Two people ride together on a motorcycle
 3061481868_d1e00b1f2e.jpg#4	Two people riding a motorcycle .
-3062173277_bfb5ef4c45.jpg#0	A group of people are rowing a boat in a contest .
-3062173277_bfb5ef4c45.jpg#1	A rowing team races forward in competition with the motivation of their leader in front of the boat .
+3062173277_bfb5ef4c45.jpg#0	A group of people are rowing a boat .
+3062173277_bfb5ef4c45.jpg#1	A rowing team races forward with their leader in front of the boat .
 3062173277_bfb5ef4c45.jpg#2	Boat number 5 has several men with life jackets paddling the water .
 3062173277_bfb5ef4c45.jpg#3	People in orange vests are rowing with great effort .
-3062173277_bfb5ef4c45.jpg#4	Several people are rowing a boat while being cheered on by a person with a drum
+3062173277_bfb5ef4c45.jpg#4	Several people are rowing a boat .
 3062273350_fd66106f21.jpg#0	men wearing hats and coats are walking together
 3062273350_fd66106f21.jpg#1	a group of old men walking down the street
 3062273350_fd66106f21.jpg#2	A group of seven men walking and standing on a concrete surface .
@@ -36633,15 +36633,15 @@
 448252603_7d928c900e.jpg#2	A man points his finger to the path ahead as he sits on the dirt path .
 448252603_7d928c900e.jpg#3	A man with a backpack is sitting in a dirt road and pointing toward the horizon .
 448252603_7d928c900e.jpg#4	a young man sitting in the middle of a dirt road pointing up the road .
-448257345_ce149c2ea6.jpg#0	A dog is staring at the food in the plate of a person eating .
+448257345_ce149c2ea6.jpg#0	A dog is staring at the person eating a food .
 448257345_ce149c2ea6.jpg#1	A person holding a dog while they eat .
-448257345_ce149c2ea6.jpg#2	A person is eating a plate of pasta with a black and brown dog on his or her lap .
+448257345_ce149c2ea6.jpg#2	A person is eating pasta with a black and brown dog on his or her lap .
 448257345_ce149c2ea6.jpg#3	A person is eating pasta , while a dog is watching .
-448257345_ce149c2ea6.jpg#4	Someone in a blue and white striped sweater is eating and the dog next to them is interested in their food .
+448257345_ce149c2ea6.jpg#4	Someone in a blue and white striped sweater is eating and the dog next to them is watching .
 44856031_0d82c2c7d1.jpg#0	A brown dog is sprayed with water .
 44856031_0d82c2c7d1.jpg#1	A dog is being squirted with water in the face outdoors .
 44856031_0d82c2c7d1.jpg#2	A dog stands on his hind feet and catches a stream of water .
-44856031_0d82c2c7d1.jpg#3	A jug is jumping up it is being squirted with a jet of water .
+44856031_0d82c2c7d1.jpg#3	A dog is jumping up it is being squirted with water .
 44856031_0d82c2c7d1.jpg#4	A tan , male dog is jumping up to get a drink of water from a spraying bottle .
 448590900_db83c42006.jpg#0	A brown dog is sniffing around green grass on a hill .
 448590900_db83c42006.jpg#1	A dog is digging a field .
