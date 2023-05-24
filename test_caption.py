@@ -10,8 +10,7 @@ from tensorflow.keras.models import load_model
 
 app = Flask(__name__)
 CORS(app)
-#img_path = "C:\Project - Image Caption GeneratorFlicker8k_Dataset/3385593926_d3e9c21170.jpg"
-#print(img_path)
+
 def extract_features(filename, model):
     try:
         image = Image.open(filename)
@@ -47,7 +46,6 @@ def generate_desc(model, tokenizer, photo, max_length):
         word = word_for_id(pred, tokenizer)
         if word is None:
             break
-        #in_text += ' ' + word
         if word not in words_list:
             in_text += ' ' + word
             words_list.append(word)
@@ -81,13 +79,3 @@ def process_image():
 
 if __name__ == '__main__':
     app.run(debug=True)
-#max_length = 32
-#tokenizer = load(open("C:/Users/user/Desktop/Generator/tokenizer.p","rb"))
-#model = load_model('C:/Users/user/Desktop/Generator/imagecaptionmodels/model_2.h5')
-#xception_model = Xception(include_top=False, pooling="avg")
-#photo = extract_features(img_path, xception_model)
-#img = Image.open(img_path)
-#description = generate_desc(model, tokenizer, photo, max_length)
-#print("\n\n")
-#print(description)
-#plt.imshow(img)
