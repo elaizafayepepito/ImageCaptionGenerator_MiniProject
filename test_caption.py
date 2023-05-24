@@ -60,10 +60,10 @@ def process_image():
         img_filename = img_file.filename  # Get the uploaded image filename
         
         # Concatenate the filename to the image path
-        img_path = "C:\Project - Image Caption GeneratorFlicker8k_Dataset/" + img_filename
+        img_path = "C:/Users/Elaiza Faye/Desktop/ISMiniProject/Image Caption GeneratorFlicker8k_Dataset/" + img_filename
         
-        tokenizer = load(open("C:/Users/user/Desktop/Generator/tokenizer.p", "rb"))
-        model = load_model('C:/Users/user/Desktop/Generator/imagecaptionmodels/model_2.h5')
+        tokenizer = load(open("C:/Users/Elaiza Faye/Desktop/ISMiniProject/Generator/tokenizer.p","rb"))
+        model = load_model('C:/Users/Elaiza Faye/Desktop/ISMiniProject/Generator/models/model_9.h5')
         xception_model = Xception(include_top=False, pooling="avg")
 
         # Extract features from the image
