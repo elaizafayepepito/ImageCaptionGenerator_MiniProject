@@ -37,7 +37,7 @@ def word_for_id(integer, tokenizer):
     return None
 
 def generate_desc(model, tokenizer, photo, max_length):
-    in_text = 'start'
+    in_text = ''
     words_list = []
     for i in range(max_length):
         seq = tokenizer.texts_to_sequences([in_text])[0]
@@ -53,7 +53,7 @@ def generate_desc(model, tokenizer, photo, max_length):
             words_list.append(word)
         if word == 'end':
             break
-    return in_text + ' end'
+    return in_text
 
 @app.route('/process-image', methods=['POST'])
 def process_image():
